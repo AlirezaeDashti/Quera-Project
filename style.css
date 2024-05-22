@@ -22,9 +22,14 @@ button, li, a {
     
 }
 
+button {
+    border-width: 1px;
+}
+
 .header_left_container {
-    display: inline-block;
+    display: flex;
     margin: 30px;
+    align-items: start;
 }
 main {
     background-color: #E0EDFF;
@@ -36,6 +41,14 @@ main {
     border-radius: 6px;
     width: 2.5rem;
     height: 2.5rem;
+    border-color: #E3E3E3;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.change_mode_button img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .login_button {
@@ -88,14 +101,26 @@ main {
     color: #2C7EF8;
 } 
 
+.circle {
+    width: 452px;
+    height: 452px;
+    top: 600px;
+    left: 488px;
+    transform: rotate(180deg);
+    opacity: 0.6;
+    background: linear-gradient(#EFEBFF 0%, #E0EDFF 100%);
+    box-shadow: -3px 4px 16px 0 #000000;
+    border-radius: 50%;
+}
+
 .bold_content {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .focus {
-    width: 431px;
-    height: 83px; 
-    margin-top: 7rem; 
+    /* width: 431px;
+    height: 83px;  */
+    padding-top: 7rem; 
     margin-left: auto;
     margin-right: auto;
     justify-content: center; 
@@ -162,6 +187,7 @@ h1 {
     background-color: #EBF3FE;
     border-color: #EBF3FE;
     color: #2C7EF8;
+    cursor: pointer;
 }
 
 .image1 img {
