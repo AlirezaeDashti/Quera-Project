@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'BYekan+';
+    src: url('C:\Users\A_Dashti\Downloads\BYekan-\BYekan\BYekan+'); 
+  }
+body {
+    font-family: 'BYekan+', sans-serif; 
+}
+.header_layout {
+    background-color: aliceblue;
+    display: flex;
+}
