@@ -32,6 +32,12 @@ main {
     
 }
 
+.change_mode_button {
+    border-radius: 6px;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .login_button {
     font-weight: 600;
     font-size: 16px;
@@ -156,4 +162,11 @@ h1 {
     background-color: #EBF3FE;
     border-color: #EBF3FE;
     color: #2C7EF8;
+}
+
+.image1 img {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
 }
