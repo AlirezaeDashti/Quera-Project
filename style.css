@@ -1,11 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 @font-face {
     font-family: 'BYekan+';
-    src: url('C:\Users\A_Dashti\Downloads\BYekan-\BYekan\BYekan+'); 
+    src: url('BYekan+.ttf') format('truetype'); 
   }
 body {
     font-family: 'BYekan+', sans-serif; 
 }
 .header_layout {
-    background-color: aliceblue;
+    background-color: #FFFFFF;
     display: flex;
+    justify-content: space-between;
+}
+
+button, li, a {
+    font-family: 'BYekan+', sans-serif; 
+    text-decoration: none;
+    
+}
+
+.header_left_container {
+    display: inline-block;
+    margin: 30px;
+}
+main {
+    background-color: #E0EDFF;
+    height: 2000px;
+    
+}
+
+.login_button {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 6px;
+    width: 167px;
+    height: 40px;
+    background-color: #2C7EF8;
+    color: #FFFFFF;
+    border-color: #2C7EF8;
+    cursor: pointer;
+    margin-left: 13px;
+}
+
+
+.header_right_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__links {
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: auto;
+    margin: 35px;
+}
+
+.contactUs .aboutUs .mainPgae a {
+    display: inline-block;
+    color: #666666;
+    font-weight: 600;
+    font-size: 16px;  
+}
+
+.quera_list a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #141414;
+   text-decoration-color: #141414;
+  
+}
+
+.nav__links a:hover {
+    color: #2C7EF8;
+} 
+
+.bold_content {
+    margin-top: 50px;
+}
+
+.focus {
+    width: 431px;
+    height: 83px; 
+    margin-top: 7rem; 
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
+    
+}
+
+.focus h2 {
+    font-weight: 400;
+    font-size: 46px;
+    text-align: center;
+    line-height: 82.8px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 5.4rem;
+}
+
+.quote {
+    width: 5 rem;
+    height: 3.8 rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.double_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.login_button_2 {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 6px;
+    width: 167px;
+    height: 40px;
+    background-color: #2C7EF8;
+    color: #FFFFFF;
+    border-color: #2C7EF8;
+    cursor: pointer;
+    margin-left: 13px;
+}
+
+.about_us_2 {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 6px;
+    width: 167px;
+    height: 40px;
+    background-color: #EBF3FE;
+    border-color: #EBF3FE;
+    color: #2C7EF8;
 }
