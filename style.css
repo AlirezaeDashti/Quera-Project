@@ -32,8 +32,9 @@ button {
     align-items: start;
 }
 main {
-    background-color: #E0EDFF;
+    background-image: linear-gradient(#E0EDFF, white);
     height: 2000px;
+    position: relative;
     
 }
 
@@ -101,7 +102,7 @@ main {
     color: #2C7EF8;
 } 
 
-.circle {
+.circle1 {
     width: 452px;
     height: 452px;
     top: 600px;
@@ -111,6 +112,25 @@ main {
     background: linear-gradient(#EFEBFF 0%, #E0EDFF 100%);
     box-shadow: -3px 4px 16px 0 #000000;
     border-radius: 50%;
+    position: absolute;
+    top: 33px;
+    left: 15px;
+}
+
+.circle2 {
+    width: 452px;
+    height: 452px;
+    top: 600px;
+    left: 488px;
+    transform: rotate(180deg);
+    opacity: 0.6;
+    background: linear-gradient(#EFEBFF 0%, #E0EDFF 100%);
+    box-shadow: -3px 4px 16px 0 #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: -15px;
+   
 }
 
 .bold_content {
