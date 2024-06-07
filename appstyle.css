@@ -61,6 +61,19 @@
     color: #7D7D7F;
  }
 
+ .task-counter{
+    display: flex;
+    flex-direction: row;
+    font-family: 'BYekan+';
+    margin-top: 1rem;
+    margin-right: 1rem;
+ }
+
+ .task-counter p{
+    display: flex;
+    font-family: 'BYekan+';
+ }
+
  .task-creat-container {
     display: flex;
     flex-direction: column;
@@ -213,4 +226,13 @@
 
 .rotate-90 {
     transform: rotate(90deg);
+}
+
+.inprogress-tasks-container {
+    margin-top: 1rem;
+}
+
+.inprogress-tasks {
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
 }

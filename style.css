@@ -13,6 +13,7 @@ body {
 .header_layout {
     
     position: sticky;
+    top: 0;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -125,11 +126,18 @@ main {
     width: 2rem;
     height: 2rem;
     margin-top: 9.25rem;
-    margin-left: 67.2rem;
+    padding-right: 11rem;
     gap: 0px;
     opacity: 0px;
 
 
+}
+
+.lino {
+   
+    margin-top: -150px;
+    margin-right: 660px;
+    
 }
 
 .circle1 {
@@ -413,7 +421,7 @@ h1 {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.8rem;
-    text-align: right;
+    text-align: justify;
 
 }
 
@@ -475,9 +483,6 @@ h1 {
     text-align: center;
 }
 
-.comments_container {
-    
-}
 
 .comment_body {
     margin-top: 3rem;
@@ -524,7 +529,7 @@ h1 {
     font-size: 16px;
     font-weight: 300;
     line-height: 24.8px;
-    text-align: right;
+    text-align: justify;
 }
 
 .circle3 {
@@ -536,6 +541,177 @@ h1 {
     transform: rotate(180deg);
     opacity: 0.6;
     background: linear-gradient(to top, #EFEBFF %70, #EBEBFB );
-    box-shadow: -3px 4px 16px 0px #00000000;
-    border-radius: 50%;
+    box-shadow: -3px 4px 16px 0px #00000000;  
 }
+
+.change_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.change_buttons svg{
+    
+    margin: 0.7rem;
+}
+
+footer {
+    margin-top: 7.5rem;
+    margin-bottom: 3.8rem;
+}
+
+.brand {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 3.8rem;
+    width: 35.8rem;
+    gap: 16px;
+    opacity: 0px; */
+    font-family: 'BYekan+';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31px;
+    text-align: left;
+    margin-bottom: 3.8rem;
+
+}
+
+.brand p {
+    margin: 0.9rem;
+}
+
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_contact1 {
+    direction: rtl;
+    margin-left: 0rem;
+    width: 20.9rem;  
+}
+
+.footer_contact1_head {
+    font-family: 'BYekan+';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24.8px;
+    text-align: right;
+
+}
+
+.footer_contact1_body {
+    font-family: 'BYekan+';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: right;
+    margin-top: 0.75rem;
+    position: relative;
+}
+
+.email_sender {
+    border: 1px solid #A1A1A1;
+    width: 20.9rem;
+    height:  3rem;
+    padding: 10px 24px 10px 6px;
+    gap: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0px;
+    direction: ltr;
+    margin-top: 2rem;
+
+}
+
+.email_sender p {
+    font-family: 'BYekan+';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.7px;
+    text-align: right;
+    color: #BCBCBC;
+    position: absolute;
+    bottom: 0.81rem;
+    right: 1.5rem;
+}
+
+.email_sender button {
+    width: 4.06rem;
+    height: 2.25rem;
+    border-radius: 8px;
+    opacity: 0px;
+    padding: auto;
+    /* padding-top: 0.37rem;
+    margin-bottom: 0.37rem;
+    padding-left: 0.37rem; */
+    background-color: #037FFF;
+    border-color: #037FFF;
+    color: #E3E3E3;
+    position: absolute;
+    bottom: 0.37rem;
+    left: 0.37rem;
+}
+
+.footer_contact2 {
+    direction: rtl;
+    margin-right: 0rem;
+}
+
+.fax_ref {
+    display: flex;
+    margin-bottom: 1.5rem;
+    font-family: 'BYekan+';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.7px;
+    text-align: right;
+
+}
+
+.fax_ref p {
+    padding-right: 1rem;
+}
+
+.tel_ref {
+    display: flex;
+    margin-bottom: 1.5rem;
+    font-family: 'BYekan+';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.7px;
+    text-align: right;
+}
+
+.tel_ref p {
+    padding-right: 1rem;
+}
+
+.address_ref {
+    display: flex;
+    font-family: 'BYekan+';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.7px;
+    width: 20.5rem;
+    height: 3.1rem;
+    gap: 1rem;
+    opacity: 0px;
+}
+
+.address_ref p {
+    padding-right: 0.7rem;
+    text-align: justify;
+}
+
+.copy_right {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.1rem;
+    direction: rtl;
+    color: #666666;
+}
+
